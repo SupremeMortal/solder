@@ -8,7 +8,7 @@ Install php7 repository:
 sudo apt-get install software-properties-common python-software-properties
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php7.1
+sudo apt-get install php7.0
 ```
 
 Install PHP 7.0
