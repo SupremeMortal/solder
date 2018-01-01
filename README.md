@@ -1,6 +1,13 @@
 # Solder
 Installing Technic Solder
 
+This installation was tested on Ubuntu Server 16.04.
+Requirements:
+- Root access
+- You need a domain. Replace anywhere where solder.example.com is referenced
+- Ports 80 and 443 forwarded to the machine
+
+
 
 Install php7 repository:
 
@@ -15,6 +22,14 @@ Install PHP 7.0
 
 ```
 sudo apt-get install php7.0 php7.0-bcmath php7.0-xml php7.0-mbstring php7.0-mysql php7.0-sqlite php7.0-curl php7.0-json php7.0-zip php7.0-gd php7.0-mcrypt php7.0-fpm
+```
+
+Install other programs needed
+
+```
+sudo apt-get install git
+sudo apt-get install nano
+sudo apt-get install nginx
 ```
 
 Create the directory where solder will live
@@ -76,7 +91,9 @@ Change "default" to "mysql"
 Change "username" to "root"
 Change "password" to the password you set when installing MySQL
 
+
 Finished configuring solder files
+
 
 Change into solder directory
 
